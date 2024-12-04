@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "contrate-me",
+    "slug": "contrate-me",
+    "scheme": "contrate-me",
+    "version": "1.0.0",
+    "backgroundColor": "#FFFFFF",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.contrateme"
+    },
+    "ios": {
+      "bundleIdentifier": "org.name.contrateme",
+      "usesAppleSignIn": true
+    },
+    "plugins": [
+      "expo-font",
+      "expo-apple-authentication"
+    ]
+  }
+}
